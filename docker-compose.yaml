@@ -5,18 +5,18 @@ services:
     ports:
       - "88:80"
     deploy:
-      replicas: "3"
+      replicas: 3
   moives:
     image: saitejachintakunta/pymovies:v2
     ports:
       - "89:80"
     deploy:
-      replicas: "3"
+      replicas: 3
   tv:
     image: saitejachintakunta/pytv:v2
     ports:
       - "90:80"
     deploy:
-      replicas: "3"
+      replicas: 3
 
      
