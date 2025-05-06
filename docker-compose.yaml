@@ -13,7 +13,7 @@ services:
     deploy:
       replicas: 3
   tv:
-    image: /pytv:v2
+    image: pytv:v2
     ports:
       - "87:80"
     deploy:
