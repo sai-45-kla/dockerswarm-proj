@@ -1,7 +1,7 @@
 version: "3"
 services:
   pylife:
-    image: saitejachintakunta/ pylife:v2
+    image: saitejachintakunta/pylife:v2
     ports:
       - "88:80"
     deploy:
